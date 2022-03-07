@@ -53,7 +53,7 @@ h3{
   .menu-navegacion{
     height: 100px;
     width: 100%;
-    background-color: rgba(255, 192, 203, 0.479);
+    background-color: rgba(255, 192, 203, 0.767);
     position: fixed;
     z-index: 100;
     transition: all .3s;
@@ -91,7 +91,7 @@ h3{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: rgba(255, 192, 203, 0.479);
+        background-color: rgba(255, 192, 203, 0.795);
         top: 100px;
         left: -100%;
         text-align: center;
@@ -116,7 +116,7 @@ h3{
 
   .contenedor-pastel{
       width: 100%;
-      height: 100vh;
+      min-height: 100vh;
       background-image: url(../src/img/pastel-1.jpg);
       background-repeat: no-repeat;
       background-position: center center;
@@ -124,7 +124,7 @@ h3{
   }
 
   .contenedor-pastel-elementos{
-    height: 100vh;
+    min-height: 100vh;
   }
 
 
@@ -133,7 +133,7 @@ h3{
   }
 
   .btn-rosita{
-    background-color: rgba(255, 192, 203, 0.479);
+    background-color: rgba(255, 192, 203, 0.801);
     border-radius: 20px;
     border: 1px solid white;
     padding: 1rem 10rem;
@@ -163,7 +163,7 @@ h3{
 
   .contenedor-img-galeria{
     position: relative;
-    overflow-y: hidden;  
+    overflow: hidden;  
   }
 
   .precio-pastel{
@@ -197,7 +197,7 @@ h3{
 
   .contenedor-pedido{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../src/img/pastel-2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -218,6 +218,12 @@ h3{
     color: white;
   }
 
+  @media (max-width: 768px) {
+    .contenedor-formulario{
+      width: 90%;
+    }
+  }
+
   .checkbox{
     border-radius: 2rem;
     border: none;
@@ -228,6 +234,10 @@ h3{
   .margin-formulario{
     margin-top: 10rem;
     border-radius: 2rem;
+  }
+
+  .input-formulario{
+    margin: 0;
   }
 
   /*Cierre Seccion pedido */
@@ -251,6 +261,11 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     width: 60%;
     text-align: center;
+  }
+  @media (max-width: 768px) {
+      table{
+        width: 90%;
+      }
   }
 
   thead{

@@ -18,7 +18,7 @@ window.addEventListener('scroll', ()=>{
         menu.classList.add('lista-ul-scroll');
     }else{
         tamanomenu.style.height = '100px';
-        tamanomenu.style.backgroundColor= 'rgba(255, 192, 203, 0.479)';
+        tamanomenu.style.backgroundColor= 'rgba(255, 192, 203, 0.767)';
         logomenu.style.maxWidth = '100px';
         menu.classList.remove('lista-ul-scroll');
     }
