@@ -183,7 +183,8 @@ h3{
     top: 0;
   }
 
-  .imagen-adornos{
+  .imagen-adornos,
+  .img-galeria{
     width: 213px;
     height: 213px;
   }
